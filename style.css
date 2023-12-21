@@ -2,8 +2,14 @@
   font-family: topaz;
   src: url(topaz.ttf);
 }
+
+/* 
+'left' and 'right' makes the nav bar use the entire width of the page
+justify content makes the links stay to the left, and name stay to the right 
+*/
+
 .nav {
-  position: sticky;
+  position: absolute;
   left: 0;
   right: 0;
   align-items: center;
@@ -45,11 +51,16 @@
   font-size: 40px;
 }
 
+/* 
+Color scheme for site is #031226,	#091E4F,	#1C2B7A,	#3538A5,	#6055C6,	#9985DB,	#CAB6ED,	#F8F2FF 
+Background is a gradient using these colors.
+Nav bar and link colors use them as well.
+*/
+
 html, body {
   font-family: topaz;
   min-height: 100%;
   background: linear-gradient(to top, #031226,	#091E4F,	#1C2B7A,	#3538A5,	#6055C6,	#9985DB,	#CAB6ED,	#F8F2FF); 
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
