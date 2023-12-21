@@ -60,7 +60,25 @@ Nav bar and link colors use them as well.
 html, body {
   font-family: topaz;
   min-height: 100%;
-  background: linear-gradient(to top, #031226,	#091E4F,	#1C2B7A,	#3538A5,	#6055C6,	#9985DB,	#CAB6ED,	#F8F2FF); 
+  background-image: linear-gradient(to top, #031226,	#091E4F,	#1C2B7A,	#3538A5,	#6055C6,	#9985DB,	#CAB6ED,	#F8F2FF); 
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-between
+}
+
+#headshot {
+  justify-content: space-between;
+  background: none;
+  margin: 10px;
+  border: 10px solid transparent;
+  padding-top: 100px;
+  width: 500px;
+}
+
+#home-text {
+  font-size: 40px;
 }
