@@ -47,7 +47,8 @@ justify content makes the links stay to the left, and name stay to the right
   color: #9985DB;
 }
 
-#nav-name {
+
+nav h1 {
   font-size: 40px;
 }
 
